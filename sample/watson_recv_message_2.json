@@ -1,0 +1,38 @@
+{
+  "output": {
+    "generic": [
+      {
+        "response_type": "text",
+        "text": "そうですか、海外に行きたいんですね太郎さん"
+      }
+    ],
+    "intents": [],
+    "entities": [
+      {
+        "entity": "旅行の種類",
+        "location": [
+          0,
+          2
+        ],
+        "value": "海外",
+        "confidence": 1
+      }
+    ]
+  },
+  "context": {
+    "global": {
+      "system": {
+        "turn_count": 3
+      }
+    },
+    "skills": {
+      "main skill": {
+        "user_defined": {
+          "username": "太郎",
+          "traveltype": "海外"
+        },
+        "system": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": 201,
+  "statusText": "Created",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "53",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS",
+    "access-control-allow-headers": "Content-Type, Content-Length, Authorization, X-Watson-Authorization-Token, X-WDC-PL-OPT-OUT, X-Watson-UserInfo, X-Watson-Learning-Opt-Out, X-Watson-Metadata",
+    "access-control-max-age": "3600",
+    "content-security-policy": "default-src 'none'",
+    "x-dns-prefetch-control": "off",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains;",
+    "x-download-options": "noopen",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-response-time": "12.757ms",
+    "x-global-transaction-id": "d82240d4719a15b86be4321f8fcef3b7",
+    "x-dp-watson-tran-id": "d82240d4719a15b86be4321f8fcef3b7",
+    "x-edgeconnect-midmile-rtt": "8",
+    "x-edgeconnect-origin-mex-latency": "66",
+    "date": "Sun, 01 Dec 2019 10:50:16 GMT",
+    "connection": "close"
+  },
+  "result": {
+    "session_id": "b2553333-2ace-4999-855c-da8cb666f39f"
+  }
+}

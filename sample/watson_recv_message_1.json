@@ -1,0 +1,32 @@
+{
+  "output": {
+    "generic": [
+      {
+        "response_type": "text",
+        "text": "太郎さん、国内ですか？海外ですか？"
+      }
+    ],
+    "intents": [
+      {
+        "intent": "旅行",
+        "confidence": 0.9467347621917725
+      }
+    ],
+    "entities": []
+  },
+  "context": {
+    "skills": {
+      "main skill": {
+        "user_defined": {
+          "username": "太郎"
+        },
+        "system": {}
+      }
+    },
+    "global": {
+      "system": {
+        "turn_count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "372",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS",
+    "access-control-allow-headers": "Content-Type, Content-Length, Authorization, X-Watson-Authorization-Token, X-WDC-PL-OPT-OUT, X-Watson-UserInfo, X-Watson-Learning-Opt-Out, X-Watson-Metadata",
+    "access-control-max-age": "3600",
+    "content-security-policy": "default-src 'none'",
+    "x-dns-prefetch-control": "off",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains;",
+    "x-download-options": "noopen",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-watson-session-timeout": "session_timeout=300",
+    "x-response-time": "89.074ms",
+    "x-global-transaction-id": "327b5a1cf3bcb014dd3be1f1b0637d03",
+    "x-dp-watson-tran-id": "327b5a1cf3bcb014dd3be1f1b0637d03",
+    "x-edgeconnect-midmile-rtt": "8",
+    "x-edgeconnect-origin-mex-latency": "120",
+    "date": "Sun, 01 Dec 2019 10:52:43 GMT",
+    "connection": "close"
+  },
+  "result": {
+    "output": {
+      "generic": [
+        {
+          "response_type": "text",
+          "text": "そうですか、国内に行きたいんですね太郎さん"
+        }
+      ],
+      "intents": [],
+      "entities": [
+        {
+          "entity": "旅行の種類",
+          "location": [
+            4,
+            6
+          ],
+          "value": "国内",
+          "confidence": 1
+        }
+      ]
+    },
+    "context": {
+      "skills": {
+        "main skill": {
+          "user_defined": {
+            "username": "太郎",
+            "traveltype": "国内"
+          },
+          "system": {}
+        }
+      },
+      "global": {
+        "system": {
+          "turn_count": 2
+        }
+      }
+    }
+  }
+}
